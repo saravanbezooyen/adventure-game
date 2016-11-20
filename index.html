@@ -2,29 +2,27 @@
 <html>
 <head>
 	<title>Adventure Game</title>
-	<link href="css/style.css" rel="stylesheet">
-
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Mountains+of+Christmas|Pacifico|Shadows+Into+Light" rel="stylesheet">
 </head>
 <body>
 
 <main>
 
 	<section id="status"></section>
-
-	<section id="level_title">Start</section>
-
+	 	<h1 style="font-family: 'Mountains of Christmas', cursive;">Little Red Riding Hood</h1>
+		<section id="level_title" style="font-family: 'Amatic SC', cursive;">begin</section>
 	<nav>
+		<button class="button1" style="vertical-align:middle" id="option1" onclick="javascript:Level1()"><span>START</span></button>
+		<button class="button2" style="vertical-align:middle" id="option2" onclick="javascript:help()"></button>
+		<button class="button2" style="vertical-align:middle" id="option3" onclick="javascript:help()">Help?</button>
+	</nav> 
 
-		<button id="option1" onclick="javascript:Level1()">Optie 1</button>
-		<button id="option2">Optie 2</button>
-		<button id="option3">Optie 3</button>
-
-	</nav>
-
-	<img id="level_image" class="level_image" src="img/rpg.png">
+		<img id="level_image" class="level_image" src="house.jpg">
+		<img id="img" src="">
 
 </main>
 
-	<script src="js/game.js" type="text/javascript" ></script>
+	<script src="js/game.js" type="text/javascript"></script>
 </body>
 </html>
