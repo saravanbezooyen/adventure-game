@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Adventure Game</title>
+	<title>Little Red Riding Hood</title>
 	<link href="style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Mountains+of+Christmas|Pacifico|Shadows+Into+Light" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya|Gloria+Hallelujah|Playball" rel="stylesheet">
 </head>
 <body>
 
 <main>
 
-	<section id="status"></section>
-	 	<h1 style="font-family: 'Mountains of Christmas', cursive;">Little Red Riding Hood</h1>
-		<section id="level_title" style="font-family: 'Amatic SC', cursive;">begin</section>
-	<nav>
-		<button class="button1" style="vertical-align:middle" id="option1" onclick="javascript:Level1()"><span>START</span></button>
-		<button class="button2" style="vertical-align:middle" id="option2" onclick="javascript:help()"></button>
-		<button class="button2" style="vertical-align:middle" id="option3" onclick="javascript:help()">Help?</button>
-	</nav> 
+		<section id="level_title" style="font-family: 'Alegreya', serif"></section>
+		<article id="text"></article>
+		<article id="help">De regels zijn simpel. Ga naar grootmoeder's huis, blijf op het pad en pas op voor de wolf!</article>
+		<img src="basket.png" id="basket" onclick="">
+		
 
-		<img id="level_image" class="level_image" src="house.jpg">
+	<nav>
+		<button class="button1" style="vertical-align:middle" id="option1" onclick="Level1()">Start</button>
+		<button class="button2" style="vertical-align:middle" id="option2" onclick="help()">Help?</button>
+	</nav> 
+ 
+		<img id="level_image" class="level_image" src="bg.jpg">
 		<img id="img" src="">
 
 </main>
